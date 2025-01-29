@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Vivek Agarwal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Vivek Agarwal</h1>
+        <p>Software Engineer</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a passionate Full Stack Engineer with experience building scalable systems and driving innovation in fast-paced environments. I’m driven by a passion for problem-solving and have created projects like a Leetcode-like Online Code Compiler and a Task Calendar with Jira-inspired tracking.
+               I am also intrigued by increasing capability of computers in every field imaginable. I thrive on continuously improving my skills and collaborating on projects that challenge the status quo. Let’s connect and explore opportunities to innovate together!</p>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <div class="card" style="cursor: pointer;">
+                    <div class="card-content" onclick="window.open('https://codebash.online/', '_blank')">
+                    <div class="card-content">
+                        <h3>Online Judge</h3>
+                        <p>A LeetCode-like coding platform where users can solve problems in multiple languages, with real-time execution and automated verdicts.</p>
+                        <a href="https://github.com/vivagarwal/Online-Judge" target="_blank" class="btn btn-dark me-2" style="font-size: 1.2em;" onclick="event.stopPropagation();">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    </div>
+                </div> 
+                <div class="card" style="cursor: pointer;">
+                    <div class="card-content" onclick="window.open('https://image-processing-frontend-eight.vercel.app/', '_blank')">
+                    <div class="card-content">
+                        <h3>Image Processing Platform</h3>
+                        <p>A high-performance image compression pipeline with asynchronous execution, cron-based workflows, S3 storage, and APIs for CSV uploads and real-time webhook notifications</p>
+                        <a href="https://github.com/vivagarwal/image_processing" target="_blank" class="btn btn-dark me-2" style="font-size: 1.2em;" onclick="event.stopPropagation();">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                <div class="card" style="cursor: pointer;">                            
+                    <div class="card-content" onclick="window.open('https://taskcalendar-frontend.onrender.com/', '_blank')">
+                    <div class="card-content">
+                        <h3>Task Calendar</h3>
+                        <p>A Jira-inspired task management system with calendar integration for tracking tasks.</p>
+                        <a href="https://github.com/vivagarwal/TaskCalendar" target="_blank" class="btn btn-dark me-2" style="font-size: 1.2em;" onclick="event.stopPropagation();">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                <div class="card" style="cursor: pointer;">                            
+                <div class="card-content" onclick="window.open('https://shorten-url-frontend.onrender.com/', '_blank')">
+                    <div class="card-content">
+                        <h3>URL Shortener</h3>
+                        <p>A platform to convert long URLs into short, shareable links with tracking and analytics features.</p>
+                        <a href="https://github.com/vivagarwal/url_shortner" target="_blank" class="btn btn-dark me-2" style="font-size: 1.2em;" onclick="event.stopPropagation();">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                <div class="card" style="cursor: pointer;">                            
+                <div class="card-content" onclick="window.open('https://api-rate-limiter-598c.onrender.com/?user_id=1', '_blank')">
+                    <div class="card-content">
+                        <h3>API Rate Limiter</h3>
+                        <p>A middleware implementing a sliding window rate limiter using Redis to control API usage and ensure fair access.</p>
+                        <a href="https://github.com/vivagarwal/api_rate_limiter" target="_blank" class="btn btn-dark me-2" style="font-size: 1.2em;" onclick="event.stopPropagation();">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                <div class="card" style="cursor: pointer;">                            
+                <div class="card-content" onclick="window.open('https://taskboard-frontend.onrender.com/', '_blank')">
+                    <div class="card-content">
+                        <h3>Task Management Application</h3>
+                        <p>A task management application to organize tasks efficiently, with features like status tracking and collaboration.</p>
+                        <a href="https://github.com/vivagarwal/taskboard" target="_blank" class="btn btn-dark me-2" style="font-size: 1.2em;" onclick="event.stopPropagation();">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="experience">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="experience-card">
+                <div class="card">
+                    <div class="card-content">
+                        <h3>Fintech Architect</h3>
+                        <p><strong>CirclePe</strong> | Gurugram, Haryana, India</p>
+                        <p><strong>Feb 2024 - Oct 2024</strong> | Full-Time</p>
+                        <ul>
+                            <li>Architected a Fintech stack for consumer lending, integrating KYC/AML compliance and enabling real-time underwriting with 100+ data points.</li>
+                            <li>Developed a CRM system that improved lead management, boosting conversion rates by 20%.</li>
+                            <li>Implemented fraud detection systems (facial recognition, document verification) ensuring PCI DSS and GDPR compliance.</li>
+                            <li>Streamlined CI/CD pipelines with Docker and Terraform, reducing deployment time by 40%.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <h3>Associate IT Consultant</h3>
+                        <p><strong>ITC Infotech</strong> | Pune, Maharashtra, India (Remote)</p>
+                        <p><strong>Jul 2021 - Dec 2022</strong> | Full-Time</p>
+                        <ul>
+                            <li>Enhanced Windchill's PDM segment by integrating advanced custom data type support, optimizing engineering documentation.</li>
+                            <li>Worked closely with cross-functional teams to ensure seamless integration and deployment of new features.</li>
+                            <li>Specialized in Windchill and Java-based development.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <h3>Software Developer Intern</h3>
+                        <p><strong>HighRadius</strong> | Bhubaneshwar, Odisha, India (Remote)</p>
+                        <p><strong>Jul 2020 - Jun 2021</strong> | Internship</p>
+                        <ul>
+                            <li>Designed Java programs to aggregate claims numbers and POD documents, transforming raw data into CSV format.</li>
+                            <li>Utilized Selenium WebDriver to implement automated agents for web interactions and data extraction.</li>
+                            <li>Optimized Java-based web agents to adapt to changes in customer websites.</li>
+                            <li>Developed email agents to facilitate automated extraction of claims or PODs from customer emails.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="container">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill">
+                    <p>C++</p>
+                </div>
+                <div class="skill">
+                    <p>Java</p>
+                </div>
+                <div class="skill">
+                    <p>Python</p>
+                </div>
+                <div class="skill">
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill">
+                    <p>React</p>
+                </div>
+                <div class="skill">
+                    <p>NodeJS</p>
+                </div>
+                <div class="skill">
+                    <p>Flask</p>
+                </div>
+                <div class="skill">
+                    <p>Django</p>
+                </div>
+                <div class="skill">
+                    <p>SpringBoot</p>
+                </div>
+                <div class="skill">
+                    <p>Docker</p>
+                </div>
+                <div class="skill">
+                    <p>AWS</p>
+                </div>
+                <div class="skill">
+                    <p>Kubernetes</p>
+                </div>
+                <div class="skill">
+                    <p>Kafka</p>
+                </div>
+                <div class="skill">
+                    <p>MongoDB</p>
+                </div>
+                <div class="skill">
+                    <p>MySQL</p>
+                </div>
+                <div class="skill">
+                    <p>PostgreSQL</p>
+                </div>
+                <div class="skill">
+                    <p>Redis</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container text-center">
+            <h2>Contact</h2>
+            <div class="mt-4">
+                <p>
+                    <a href="mailto:agarwal.vivek1202@gmail.com" class="btn btn-link">
+                        <i class="fas fa-envelope"></i> agarwal.vivek1202@gmail.com
+                    </a>
+                </p>
+                <p>
+                    <a href="tel:+917352846908" class="btn btn-link">
+                        <i class="fas fa-phone"></i> +91-7352846908
+                    </a>
+                </p>
+                <p>
+                    <a href="https://www.linkedin.com/in/vivek-agarwal12/" target="_blank" class="btn btn-link">
+                        <i class="fab fa-linkedin"></i> linkedin.com/in/vivek-agarwal12
+                    </a>
+                </p>
+                <p>
+                    <a href="https://github.com/vivagarwal" target="_blank" class="btn btn-link">
+                        <i class="fab fa-github"></i> github.com/vivagarwal
+                    </a>
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Vivek Agarwal.All rights reserved.</p>
+    </footer>
+</body>
+</html>
